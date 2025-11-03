@@ -58,7 +58,7 @@ Project/
 ### 3. 模型訓練
 
 #### LSTM 神經網路 (model_training_lstm.py)
-- **架構**：雙向 LSTM 網路
+- **架構**：單向 LSTM 網路
   - 第一層：96個單元，ReLU激活函數
   - 第二層：48個單元，ReLU激活函數
   - Dropout 層用於防止過擬合
